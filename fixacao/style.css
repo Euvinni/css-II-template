@@ -7,15 +7,23 @@
     background-color: #004643;
   }
   
-  header{
+  header, nav{
     padding: 20px;
     color: #abd1c6;
+    position: sticky;
+    top: 0;
   }
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+  }
+
+  aside {
+    position: absolute;
+    right: 2vw;
+    bottom: 0;
   }
   
   section{
@@ -25,7 +33,16 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  .fixado {
+    text-align: center;
+  }
   
+  .fundo-de-outra-cor:active{
+    background-color: green;
+  }
+
+
   nav{
     padding: 20px;
     background-color: white;
@@ -34,4 +51,8 @@
   footer{
     background-color: #abd1c6;
     padding: 20px;
+  }
+
+  footer:hover{
+    background-color: yellow;
   }
